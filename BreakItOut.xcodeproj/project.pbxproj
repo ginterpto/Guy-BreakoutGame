@@ -7,21 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		741D1FA61E82DFEC00F097A6 /* BrickView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741D1FA51E82DFEC00F097A6 /* BrickView.swift */; };
+		7461A3DF1EB1D8130050F895 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7461A3DE1EB1D8130050F895 /* SettingsViewController.swift */; };
 		746FC98A1E8015E400AEF0E4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746FC9891E8015E400AEF0E4 /* AppDelegate.swift */; };
-		746FC98C1E8015E400AEF0E4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746FC98B1E8015E400AEF0E4 /* ViewController.swift */; };
 		746FC98F1E8015E400AEF0E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 746FC98D1E8015E400AEF0E4 /* Main.storyboard */; };
 		746FC9911E8015E400AEF0E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 746FC9901E8015E400AEF0E4 /* Assets.xcassets */; };
 		746FC9941E8015E400AEF0E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 746FC9921E8015E400AEF0E4 /* LaunchScreen.storyboard */; };
+		746FC99D1E80162500AEF0E4 /* BreakItViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746FC99C1E80162500AEF0E4 /* BreakItViewController.swift */; };
+		746FC99F1E80164300AEF0E4 /* BreakItView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746FC99E1E80164300AEF0E4 /* BreakItView.swift */; };
+		746FC9A11E801CE100AEF0E4 /* BallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746FC9A01E801CE100AEF0E4 /* BallView.swift */; };
+		746FC9A31E801DB000AEF0E4 /* BezierPathsCreatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746FC9A21E801DB000AEF0E4 /* BezierPathsCreatorView.swift */; };
+		746FC9A51E801EFC00AEF0E4 /* UIKitExtenssions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746FC9A41E801EFC00AEF0E4 /* UIKitExtenssions.swift */; };
+		746FC9A91E81387600AEF0E4 /* GameBoardBehavior.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746FC9A81E81387600AEF0E4 /* GameBoardBehavior.swift */; };
+		748E1B931E9624F600BA4999 /* PaddleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 748E1B921E9624F600BA4999 /* PaddleView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		741D1FA51E82DFEC00F097A6 /* BrickView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BrickView.swift; sourceTree = "<group>"; };
+		7461A3DE1EB1D8130050F895 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		746FC9861E8015E400AEF0E4 /* BreakItOut.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BreakItOut.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		746FC9891E8015E400AEF0E4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		746FC98B1E8015E400AEF0E4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		746FC98E1E8015E400AEF0E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		746FC9901E8015E400AEF0E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		746FC9931E8015E400AEF0E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		746FC9951E8015E400AEF0E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		746FC99C1E80162500AEF0E4 /* BreakItViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BreakItViewController.swift; sourceTree = "<group>"; };
+		746FC99E1E80164300AEF0E4 /* BreakItView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BreakItView.swift; sourceTree = "<group>"; };
+		746FC9A01E801CE100AEF0E4 /* BallView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BallView.swift; sourceTree = "<group>"; };
+		746FC9A21E801DB000AEF0E4 /* BezierPathsCreatorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BezierPathsCreatorView.swift; sourceTree = "<group>"; };
+		746FC9A41E801EFC00AEF0E4 /* UIKitExtenssions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIKitExtenssions.swift; sourceTree = "<group>"; };
+		746FC9A81E81387600AEF0E4 /* GameBoardBehavior.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameBoardBehavior.swift; sourceTree = "<group>"; };
+		748E1B921E9624F600BA4999 /* PaddleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaddleView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +70,30 @@
 		746FC9881E8015E400AEF0E4 /* BreakItOut */ = {
 			isa = PBXGroup;
 			children = (
-				746FC9891E8015E400AEF0E4 /* AppDelegate.swift */,
-				746FC98B1E8015E400AEF0E4 /* ViewController.swift */,
+				746FC99B1E80160000AEF0E4 /* Supporting Files */,
 				746FC98D1E8015E400AEF0E4 /* Main.storyboard */,
+				7461A3DE1EB1D8130050F895 /* SettingsViewController.swift */,
+				746FC99C1E80162500AEF0E4 /* BreakItViewController.swift */,
+				741D1FA51E82DFEC00F097A6 /* BrickView.swift */,
+				748E1B921E9624F600BA4999 /* PaddleView.swift */,
+				746FC99E1E80164300AEF0E4 /* BreakItView.swift */,
+				746FC9A81E81387600AEF0E4 /* GameBoardBehavior.swift */,
+				746FC9A01E801CE100AEF0E4 /* BallView.swift */,
+				746FC9A21E801DB000AEF0E4 /* BezierPathsCreatorView.swift */,
+				746FC9A41E801EFC00AEF0E4 /* UIKitExtenssions.swift */,
+			);
+			path = BreakItOut;
+			sourceTree = "<group>";
+		};
+		746FC99B1E80160000AEF0E4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				746FC9891E8015E400AEF0E4 /* AppDelegate.swift */,
 				746FC9901E8015E400AEF0E4 /* Assets.xcassets */,
 				746FC9921E8015E400AEF0E4 /* LaunchScreen.storyboard */,
 				746FC9951E8015E400AEF0E4 /* Info.plist */,
 			);
-			path = BreakItOut;
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +169,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				746FC98C1E8015E400AEF0E4 /* ViewController.swift in Sources */,
+				741D1FA61E82DFEC00F097A6 /* BrickView.swift in Sources */,
+				748E1B931E9624F600BA4999 /* PaddleView.swift in Sources */,
+				746FC9A51E801EFC00AEF0E4 /* UIKitExtenssions.swift in Sources */,
+				7461A3DF1EB1D8130050F895 /* SettingsViewController.swift in Sources */,
 				746FC98A1E8015E400AEF0E4 /* AppDelegate.swift in Sources */,
+				746FC99D1E80162500AEF0E4 /* BreakItViewController.swift in Sources */,
+				746FC99F1E80164300AEF0E4 /* BreakItView.swift in Sources */,
+				746FC9A91E81387600AEF0E4 /* GameBoardBehavior.swift in Sources */,
+				746FC9A31E801DB000AEF0E4 /* BezierPathsCreatorView.swift in Sources */,
+				746FC9A11E801CE100AEF0E4 /* BallView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,6 +305,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = Guy.Taieb.BreakItOut;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -278,6 +319,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = Guy.Taieb.BreakItOut;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -300,6 +342,7 @@
 				746FC99A1E8015E400AEF0E4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
